@@ -6,6 +6,8 @@ function takeANumber(katzDeliLine) {
 }
 let line = []
 console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(takeANumber(line))
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length !== 0) {
