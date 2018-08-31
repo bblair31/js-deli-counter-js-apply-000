@@ -1,5 +1,6 @@
+var number = 0
+
 function takeANumber(katzDeliLine) {
-  var number = 0
   number++
   katzDeliLine.push(number)
   return (`Welcome, ${number}.`)
