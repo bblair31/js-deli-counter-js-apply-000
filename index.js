@@ -4,6 +4,8 @@ function takeANumber(katzDeliLine) {
   katzDeliLine.push(number)
   return (`Welcome, ${number}.`)
 }
+let line = []
+console.log(takeANumber(line))
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length !== 0) {
